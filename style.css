@@ -54,58 +54,62 @@ section {
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 .pictures-section {
-  padding: 60px 10%;
-  background-color: #f0f0f500;
-  text-align: center; 
-  font-family: 'Georgia', serif;
+    padding: 60px 10%;
+    background-color: #f0f0f500;
+    text-align: center; 
+    font-family: 'Georgia', serif;
 }
+
 .pictures-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
 }
+
 .pictures-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
+
 .pictures-gallery img {
-  width: 300px;
-  height: auto;
-  border-radius: 10px;
-  object-fit: cover;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
-  border: 8px solid #000; 
-  transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    border: 8px solid #000; 
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
 .pictures-gallery img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-.social-icons a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  margin: 0 5px;
-  border: 2px solid #000; 
-  border-radius: 50%;
-  color: #000; 
-  font-size: 20px;
-  text-decoration: none;
-  transition: 0.3s ease;
+/* Contact Icons */
+.contact-icons a {
+    display: flex; 
+    align-items: center; 
+    margin: 10px 0; 
+    font-size: 18px; 
+    color: #000; 
+    text-decoration: none; 
+}
+.contact-icons a i {
+    margin-right: 8px; 
+    font-size: 20px; 
 }
 
-.social-icons a:hover {
-  background-color: #00bfff;
-  color: #000; 
+.contact-icons a:hover {
+    color: #00bfff; 
 }
+
 
 
 footer {
@@ -117,10 +121,8 @@ footer {
     margin-top: 30px;
 }
 
-
 @media (max-width: 600px) {
     .container {
         padding: 10px;
     }
-  
 }
